@@ -12,3 +12,8 @@ class EuchrePlayer:
     
     def play(self, i: int):
         return self.hand.pop(i)
+    
+    def __str__(self):
+        return str(self.hand)
+    
+    __repr__ = __str__

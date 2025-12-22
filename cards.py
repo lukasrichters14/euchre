@@ -28,13 +28,13 @@ class Card:
             r = '$'
         
         if self.suit == 0:
-            s = 'S'
+            s = '♠'
         elif self.suit == 1:
-            s = 'C'
+            s = '♣'
         elif self.suit == 2:
-            s = 'D'
+            s = '♦'
         elif self.suit == 3:
-            s = 'H'
+            s = '♥'
 
         return f"{r}{s}"
     
