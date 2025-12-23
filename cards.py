@@ -47,7 +47,6 @@ class EuchreDeck:
         for s in [Suit.SPADE, Suit.CLUB, Suit.DIAMOND, Suit.HEART]:
             for r in range(9, 14):
                 self.deck.append(Card(s, r))
-            self.deck.append(Card(s, 1))
     
     def shuffle(self, n: int = 1):
         for _ in range(n):
